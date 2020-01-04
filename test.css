@@ -4,9 +4,6 @@
 .fr{
     background-color: blue;
 }
-.a{
-    position: relative;
-}
 .b{
     position: absolute;
     top: 50px;
@@ -15,3 +12,8 @@
     height: 20px;
     width:20px;
 }
+.a{
+    width: 0;
+    height: 0;
+    border: 40px solid;
+    border-color: transparent  green;
