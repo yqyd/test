@@ -14,10 +14,14 @@
     <div class="a">
     </div>
    <script>
-   function Car(){
-
+       Car.prototype.size = "200";
+       Car.prototype.say = function(){
+           console.log("hello");
+       }
+   function Car(name){
+        this.name = name;
    }
-   var car = new Car();
+   var car = new Car("bmw");
    </script>
 
 
